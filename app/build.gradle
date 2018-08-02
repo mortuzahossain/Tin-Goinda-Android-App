@@ -39,14 +39,19 @@ dependencies {
     implementation 'com.google.firebase:firebase-database:16.0.1'
 
     // FIREBASE LOGIN
-    //noinspection GradleDependency
-    implementation 'com.google.firebase:firebase-auth:16.0.1'
+    implementation 'com.google.firebase:firebase-auth:16.0.2'
 
     // FIREBASE PUSH NOTIFICATION
     implementation 'com.google.firebase:firebase-messaging:17.1.0'
 
     // IMAGE DOWNLOAD
     implementation 'com.squareup.picasso:picasso:2.71828'
+
+    // READ PDF
+    implementation 'com.github.barteksc:android-pdf-viewer:2.8.2'
+
+    // STALEST TOAST
+    implementation 'com.muddzdev:styleabletoast:2.1.2'
 
 }
 apply plugin: 'com.google.gms.google-services'

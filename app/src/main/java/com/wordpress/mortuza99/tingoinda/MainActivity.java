@@ -1,5 +1,6 @@
 package com.wordpress.mortuza99.tingoinda;
 
+import android.os.Environment;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v4.app.Fragment;
@@ -12,6 +13,8 @@ import android.widget.Toast;
 
 import com.wordpress.mortuza99.tingoinda.Fragments.Home;
 import com.wordpress.mortuza99.tingoinda.Fragments.Library;
+
+import java.io.File;
 
 public class MainActivity extends AppCompatActivity {
 
