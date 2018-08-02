@@ -41,11 +41,9 @@ public class MainActivity extends AppCompatActivity {
 
                 switch (item.getItemId()) {
                     case R.id.navhome:
-                        Toast.makeText(getApplicationContext(), "HOME", Toast.LENGTH_LONG).show();
                         setFragment(homeFragment);
                         return true;
                     case R.id.navlibrary:
-                        Toast.makeText(getApplicationContext(), "LIBRARY", Toast.LENGTH_LONG).show();
                         setFragment(libraryFragment);
                         return true;
                     default:
