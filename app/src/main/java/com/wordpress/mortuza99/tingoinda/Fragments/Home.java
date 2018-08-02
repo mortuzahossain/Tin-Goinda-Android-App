@@ -77,7 +77,7 @@ public class Home extends Fragment {
         myRecyclerAdapter.setItemClickListener(new MyRecyclerAdapter.ItemClickListener() {
             @Override
             public void onItemClick(View v, int position) {
-                Toast.makeText(getActivity(), String.valueOf(position), Toast.LENGTH_LONG).show();
+
                 FragmentTransaction transection = getFragmentManager().beginTransaction();
                 Details details = new Details();
                 Bundle bundle = new Bundle();
